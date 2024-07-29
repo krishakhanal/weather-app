@@ -11,7 +11,7 @@ This is a simple weather application built with React. It allows users to enter 
 
 ## Demo
 
-You can view a live demo of the application [here](https://your-demo-link.com).
+You can view a live demo of the application [here](http://localhost:3000/).
 
 ## Technologies Used
 

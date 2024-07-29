@@ -10,7 +10,7 @@ const App = () => {
   const [loading, setLoading] = useState(false); // State for loading indicator
   const [error, setError] = useState(''); // State for error messages
 
-  const apiKey = 'bdd1699b5f3b34adf266174492b95c4f'; // API key for OpenWeatherMap
+  const apiKey = process.env.REACT_APP_WEATHER_API_KEY;; // API key for OpenWeatherMap
 
   // Function to fetch weather data
   const getWeather = async () => {
